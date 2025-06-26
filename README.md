@@ -69,33 +69,33 @@ This Python-based project automates the validation of hourly energy flow data be
 
 ```bash
 pip install selenium pandas pytz
-
+```
 ### 2. Set Up Your Environment
-.Place your Firefox WebDriver in PATH.
-.Update your credentials in config.py and my_email_config.py.
+- Place your Firefox WebDriver in PATH.  
+- Update your credentials in config.py and my_email_config.py.
 
-EMAIL_SENDER = "your-email@gmail.com"
-EMAIL_PASSWORD = "your-app-password"
-EMAIL_RECIPIENTS = ["recipient1@example.com", "recipient2@example.com"]
+EMAIL_SENDER = "your-email@gmail.com"  
+EMAIL_PASSWORD = "your-app-password"  
+EMAIL_RECIPIENTS = ["recipient1@example.com", "recipient2@example.com", ...]
 
 ### 3. Run the Application
 ```bash
 python main.py
+```
 
 Make sure:
-
-. RNP site is accessible
+. RNP site is accessible  
 . DS XML files are added to the ds_files/ directory
 
-🛠 Challenges Tackled
-✅ Timezone offset between UTC and BST (RNP uses UTC)
-✅ Parsing nested XML namespaces
-✅ SMTP setup requiring app passwords for Gmail
+## 🛠 Challenges Tackled
+✅ Timezone offset between UTC and BST (RNP uses UTC)  
+✅ Parsing nested XML namespaces  
+✅ SMTP setup requiring app passwords for Gmail  
 ✅ Circular imports resolved by modularizing shared logic
 
-📬 Contact
-Want to collaborate or learn more?
-Connect on LinkedIn
+## 📬 Contact
+Want to collaborate or learn more?  
+Connect on LinkedIn: www.linkedin.com/in/jacob-folorunsho
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License.
