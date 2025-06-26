@@ -1,0 +1,24 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+venv/
+env/
+ENV/
+*.env
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Python test cache
+.pytest_cache/
+
