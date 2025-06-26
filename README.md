@@ -17,16 +17,16 @@ This Python-based project automates the validation of hourly energy flow data be
 
 ## 🗂 Project Structure
 
-├── rnp_files/
-├── ds_files/
-├── logs/
-├── alert.py
-├── config.py
-├── helper.py
-├── main.py
-├── scraper.py
-├── validate.py
-├── my_email_config.py
+├── rnp_files/  
+├── ds_files/  
+├── logs/  
+├── alert.py  
+├── config.py  
+├── helper.py  
+├── main.py  
+├── scraper.py  
+├── validate.py  
+├── my_email_config.py  
 └── README.md
 
 ---
