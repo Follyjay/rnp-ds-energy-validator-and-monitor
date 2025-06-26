@@ -17,21 +17,17 @@ This Python-based project automates the validation of hourly energy flow data be
 
 ## 🗂 Project Structure
 
-├── rnp_files/ # RNP CSV files (scraped)
-├── ds_files/ # DS XML files (uploaded externally)
-├── logs/ # Text-based validation logs
-├── alert.py # Sound and email alert handler
-├── config.py # File paths and email credentials
-├── helper.py # Utility functions (CSV/XML parsing, monitoring)
-├── main.py # Entry point: runs scraper and validation
-├── scraper.py # Web scraping and CSV saving
-├── validate.py # Core validation logic
-├── my_email_config.py # SMTP logic for email alerts
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
+├── rnp_files/
+├── ds_files/
+├── logs/
+├── alert.py
+├── config.py
+├── helper.py
+├── main.py
+├── scraper.py
+├── validate.py
+├── my_email_config.py
+└── README.md
 
 ---
 
